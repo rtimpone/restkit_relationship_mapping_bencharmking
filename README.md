@@ -11,6 +11,8 @@ To run the project:
 
 Each test uses RestKit to make a fake API call that is intercepted by OHHTTPStubs, which returns a 200 response and a json test fixture that serves as the response body.  If the test is using RestKit's relationship mapping, RestKit establishes relationships between students and classes using addRelationshipMappingWithSourceKeyPath:mapping:.  If the test does not use RestKit's mapping, setWillMapDeserializedResponseBlock: is used to manually parse the deserializedResponseBody before mapping, and classes are assigned to students in setCompletionBlockWithSuccess:.  See the NetworkManager class for details on how this works.
 
+This project **does not use core data**, objects are just stored in memory.
+
 The data model used in this project is fairly simple.  Each student has an id, first name, last name, and an array of 10-15 classes.  Each class has an id, a name, and a grade.  
 
 The project comes with 4 pairs of tests for 500, 1,000, 5,000, and 10,000 students in a json response.  The 10,000 student tests are commented out due to the amount of time they take to complete when running tests on an actual device. 
