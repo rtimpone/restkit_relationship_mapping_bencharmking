@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E39CA7DC-9CD9-4BDE-BBA0-B3B86691748B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RestkitRelationshipMappingBenchmark</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EAA34635-9610-44C5-B25E-2E3D108BD911</key>
+		<string>https://github.com/rtimpone/restkit_relationship_mapping_bencharmking.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RestkitRelationshipMappingBenchmark.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EAA34635-9610-44C5-B25E-2E3D108BD911</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rtimpone/restkit_relationship_mapping_bencharmking.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EAA34635-9610-44C5-B25E-2E3D108BD911</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EAA34635-9610-44C5-B25E-2E3D108BD911</string>
+			<key>IDESourceControlWCCName</key>
+			<string>restkit_relationship_mapping_bencharmking</string>
+		</dict>
+	</array>
+</dict>
+</plist>
