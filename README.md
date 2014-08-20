@@ -4,10 +4,10 @@ RestKit Relationship Mapping Benchmarking
 A test suite to benchmark RestKit's nested relationship mapping vs. manually mapping a deserialized response body.  Some projects I'm working on are taking a very long time to map nested one-to-many relationships using RestKit, and I'd really appreciate any feedback or tips to make the mapping process more performant.  
 
 To run the project:
-1. Clone the Xcode project
-2. Run `pod install` on the command line to setup the workspace
-3. Open the workspace and use command-u to run the tests
-4. The time elapsed for each test will be printed to the Xcode console when the tests complete
+- Clone the Xcode project
+- Run `pod install` on the command line to setup the workspace
+- Open the workspace and use command-u to run the tests
+- The time elapsed for each test will be printed to the Xcode console when the tests complete
 
 Each test uses RestKit to make a fake API call that is intercepted by OHHTTPStubs, which returns a 200 response and a json test fixture that serves as the response.  If the test is using RestKit's relationship mapping, RestKit establishes relationships between students and classes using addRelationshipMappingWithSourceKeyPath:mapping:.  If the test does not use RestKit's mapping, setWillMapDeserializedResponseBlock: is used to manually parse the deserializedResponseBody before mapping, and classes are assigned to students in setCompletionBlockWithSuccess:.  See the NetworkManager class for details on how this works.
 
