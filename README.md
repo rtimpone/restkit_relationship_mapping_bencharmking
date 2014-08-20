@@ -9,7 +9,7 @@ To run the project:
 - Open the workspace and use command-u to run the tests
 - The time elapsed for each test will be printed to the Xcode console when the tests complete
 
-Each test uses RestKit to make a fake API call that is intercepted by OHHTTPStubs, which returns a 200 response and a json test fixture that serves as the response.  If the test is using RestKit's relationship mapping, RestKit establishes relationships between students and classes using addRelationshipMappingWithSourceKeyPath:mapping:.  If the test does not use RestKit's mapping, setWillMapDeserializedResponseBlock: is used to manually parse the deserializedResponseBody before mapping, and classes are assigned to students in setCompletionBlockWithSuccess:.  See the NetworkManager class for details on how this works.
+Each test uses RestKit to make a fake API call that is intercepted by OHHTTPStubs, which returns a 200 response and a json test fixture that serves as the response body.  If the test is using RestKit's relationship mapping, RestKit establishes relationships between students and classes using addRelationshipMappingWithSourceKeyPath:mapping:.  If the test does not use RestKit's mapping, setWillMapDeserializedResponseBlock: is used to manually parse the deserializedResponseBody before mapping, and classes are assigned to students in setCompletionBlockWithSuccess:.  See the NetworkManager class for details on how this works.
 
 The data model used in this project is fairly simple.  Each student has an id, first name, last name, and an array of 10-15 classes.  Each class has an id, a name, and a grade.  
 
