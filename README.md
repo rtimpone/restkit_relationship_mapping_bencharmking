@@ -13,7 +13,7 @@ Each test uses RestKit to make a fake API call that is intercepted by OHHTTPStub
 
 The data model used in this project is fairly simple.  Each student has an id, first name, last name, and an array of 10-15 classes.  Each class has an id, a name, and a grade.  
 
-The project comes with 4 pairs of tests for 500, 1000, 5000, and 10000 students in a json response.  The 10,000 student tests are commented out due to the amount of time they take to complete when running tests on an actual device. 
+The project comes with 4 pairs of tests for 500, 1,000, 5,000, and 10,000 students in a json response.  The 10,000 student tests are commented out due to the amount of time they take to complete when running tests on an actual device. 
 
 Here are examples of test results seen on various devices:
 
