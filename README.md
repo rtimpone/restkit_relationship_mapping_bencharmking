@@ -17,7 +17,7 @@ The data model used in this project is fairly simple.  Each student has an id, f
 
 The project comes with 4 pairs of tests for 500, 1,000, 5,000, and 10,000 students in a json response.  The 10,000 student tests are commented out due to the amount of time they take to complete when running tests on an actual device. 
 
-Here are examples of test results seen on various devices:
+Here are examples of test results on a device and the simulator:
 
 **iPhone 5S**
 - Mapping 500 students with relationship mapping: 6.84 sec
