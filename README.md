@@ -27,14 +27,6 @@ Here are examples of test results seen on various devices:
 - Mapping 5,000 students with relationship mapping: 68.06 sec
 - Mapping 5,000 students without relationship mapping: 7.85 sec
 
-**iPod 5th Gen**
-- Mapping 500 students with relationship mapping: 6.88 sec
-- Mapping 500 students without relationship mapping: 0.80 sec
-- Mapping 1,000 students with relationship mapping: 13.78 sec
-- Mapping 1,000 students without relationship mapping: 1.74 sec
-- Mapping 5,000 students with relationship mapping: 68.33 sec
-- Mapping 5,000 students without relationship mapping: 7.84 sec
-
 **iPhone Simulator 64-bit**
 - Mapping 500 students with relationship mapping: 0.89 sec
 - Mapping 500 students without relationship mapping: 0.11 sec
