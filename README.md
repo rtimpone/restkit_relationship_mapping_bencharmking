@@ -17,21 +17,11 @@ The data model used in this project is fairly simple.  Each student has an id, f
 
 The project comes with 4 pairs of tests for 500, 1,000, 5,000, and 10,000 students in a json response.  The 10,000 student tests are commented out due to the amount of time they take to complete when running tests on an actual device. 
 
-Here are examples of test results on a device and the simulator:
+Here are example test results from an iPod Touch:
 
-**iPhone 5S**
-- Mapping 500 students with relationship mapping: 6.84 sec
-- Mapping 500 students without relationship mapping: 0.79 sec
-- Mapping 1,000 students with relationship mapping: 13.74 sec
-- Mapping 1,000 students without relationship mapping: 1.76 sec
-- Mapping 5,000 students with relationship mapping: 68.06 sec
-- Mapping 5,000 students without relationship mapping: 7.85 sec
-
-**iPhone Simulator 64-bit**
-- Mapping 500 students with relationship mapping: 0.89 sec
-- Mapping 500 students without relationship mapping: 0.11 sec
-- Mapping 1,000 students with relationship mapping: 1.56 sec
-- Mapping 1,000 students without relationship mapping: 0.28 sec
-- Mapping 5,000 students with relationship mapping: 7.80 sec
-- Mapping 5,000 students without relationship mapping: 0.91 sec
-
+- Mapping 500 students with relationship mapping: 6.9 sec
+- Mapping 500 students without relationship mapping: 0.3 sec
+- Mapping 1,000 students with relationship mapping: 13.7 sec
+- Mapping 1,000 students without relationship mapping: 0.8 sec
+- Mapping 5,000 students with relationship mapping: 68.4 sec
+- Mapping 5,000 students without relationship mapping: 3.2 sec
