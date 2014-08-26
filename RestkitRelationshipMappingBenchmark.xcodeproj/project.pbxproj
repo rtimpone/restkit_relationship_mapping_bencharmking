@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		426E59E13A994B1A83AC643F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EC874056084B9783E6E807 /* libPods.a */; };
+		FB396FC519ACEBB200A289D6 /* 500_students.json in Resources */ = {isa = PBXBuildFile; fileRef = FB396FC219ACEBB200A289D6 /* 500_students.json */; };
+		FB396FC619ACEBB200A289D6 /* 1000_students.json in Resources */ = {isa = PBXBuildFile; fileRef = FB396FC319ACEBB200A289D6 /* 1000_students.json */; };
+		FB396FC719ACEBB200A289D6 /* 5000_students.json in Resources */ = {isa = PBXBuildFile; fileRef = FB396FC419ACEBB200A289D6 /* 5000_students.json */; };
 		FB4743B819A54DB400DF3378 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4743B719A54DB400DF3378 /* Foundation.framework */; };
 		FB4743BA19A54DB400DF3378 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4743B919A54DB400DF3378 /* CoreGraphics.framework */; };
 		FB4743BC19A54DB400DF3378 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4743BB19A54DB400DF3378 /* UIKit.framework */; };
@@ -29,14 +32,9 @@
 		FB4743F919A54DFC00DF3378 /* RMBClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4743F319A54DFC00DF3378 /* RMBClass.m */; };
 		FB4743FA19A54DFC00DF3378 /* RMBStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4743F519A54DFC00DF3378 /* RMBStudent.m */; };
 		FB4743FB19A54DFC00DF3378 /* RMBStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4743F519A54DFC00DF3378 /* RMBStudent.m */; };
-		FB47440019A54E1800DF3378 /* 500_students.json in Resources */ = {isa = PBXBuildFile; fileRef = FB4743FC19A54E1800DF3378 /* 500_students.json */; };
-		FB47440119A54E1800DF3378 /* 500_students.json in Resources */ = {isa = PBXBuildFile; fileRef = FB4743FC19A54E1800DF3378 /* 500_students.json */; };
-		FB47440219A54E1800DF3378 /* 1000_students.json in Resources */ = {isa = PBXBuildFile; fileRef = FB4743FD19A54E1800DF3378 /* 1000_students.json */; };
-		FB47440319A54E1800DF3378 /* 1000_students.json in Resources */ = {isa = PBXBuildFile; fileRef = FB4743FD19A54E1800DF3378 /* 1000_students.json */; };
-		FB47440419A54E1800DF3378 /* 5000_students.json in Resources */ = {isa = PBXBuildFile; fileRef = FB4743FE19A54E1800DF3378 /* 5000_students.json */; };
-		FB47440519A54E1800DF3378 /* 5000_students.json in Resources */ = {isa = PBXBuildFile; fileRef = FB4743FE19A54E1800DF3378 /* 5000_students.json */; };
 		FB47440619A54E1800DF3378 /* 10000_students.json in Resources */ = {isa = PBXBuildFile; fileRef = FB4743FF19A54E1800DF3378 /* 10000_students.json */; };
 		FB47440719A54E1800DF3378 /* 10000_students.json in Resources */ = {isa = PBXBuildFile; fileRef = FB4743FF19A54E1800DF3378 /* 10000_students.json */; };
+		FBAF246719A65C7F00183686 /* NSDictionary+MapArrayOfDictionariesIntoArrayOfObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAF246619A65C7F00183686 /* NSDictionary+MapArrayOfDictionariesIntoArrayOfObjects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +50,9 @@
 /* Begin PBXFileReference section */
 		5BC489F79CB547DD8471B403 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		A9EC874056084B9783E6E807 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB396FC219ACEBB200A289D6 /* 500_students.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 500_students.json; sourceTree = "<group>"; };
+		FB396FC319ACEBB200A289D6 /* 1000_students.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1000_students.json; sourceTree = "<group>"; };
+		FB396FC419ACEBB200A289D6 /* 5000_students.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5000_students.json; sourceTree = "<group>"; };
 		FB4743B419A54DB400DF3378 /* RestkitRelationshipMappingBenchmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestkitRelationshipMappingBenchmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4743B719A54DB400DF3378 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FB4743B919A54DB400DF3378 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -78,10 +79,9 @@
 		FB4743F319A54DFC00DF3378 /* RMBClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMBClass.m; sourceTree = "<group>"; };
 		FB4743F419A54DFC00DF3378 /* RMBStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMBStudent.h; sourceTree = "<group>"; };
 		FB4743F519A54DFC00DF3378 /* RMBStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMBStudent.m; sourceTree = "<group>"; };
-		FB4743FC19A54E1800DF3378 /* 500_students.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 500_students.json; sourceTree = "<group>"; };
-		FB4743FD19A54E1800DF3378 /* 1000_students.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1000_students.json; sourceTree = "<group>"; };
-		FB4743FE19A54E1800DF3378 /* 5000_students.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5000_students.json; sourceTree = "<group>"; };
 		FB4743FF19A54E1800DF3378 /* 10000_students.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 10000_students.json; sourceTree = "<group>"; };
+		FBAF246519A65C7F00183686 /* NSDictionary+MapArrayOfDictionariesIntoArrayOfObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MapArrayOfDictionariesIntoArrayOfObjects.h"; sourceTree = "<group>"; };
+		FBAF246619A65C7F00183686 /* NSDictionary+MapArrayOfDictionariesIntoArrayOfObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MapArrayOfDictionariesIntoArrayOfObjects.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +144,8 @@
 		FB4743BD19A54DB400DF3378 /* RestkitRelationshipMappingBenchmark */ = {
 			isa = PBXGroup;
 			children = (
+				FBAF246519A65C7F00183686 /* NSDictionary+MapArrayOfDictionariesIntoArrayOfObjects.h */,
+				FBAF246619A65C7F00183686 /* NSDictionary+MapArrayOfDictionariesIntoArrayOfObjects.m */,
 				FB4743F019A54DFC00DF3378 /* NetworkManager.h */,
 				FB4743F119A54DFC00DF3378 /* NetworkManager.m */,
 				FB4743F219A54DFC00DF3378 /* RMBClass.h */,
@@ -170,9 +172,9 @@
 		FB4743DF19A54DB500DF3378 /* RestkitRelationshipMappingBenchmarkTests */ = {
 			isa = PBXGroup;
 			children = (
-				FB4743FC19A54E1800DF3378 /* 500_students.json */,
-				FB4743FD19A54E1800DF3378 /* 1000_students.json */,
-				FB4743FE19A54E1800DF3378 /* 5000_students.json */,
+				FB396FC219ACEBB200A289D6 /* 500_students.json */,
+				FB396FC319ACEBB200A289D6 /* 1000_students.json */,
+				FB396FC419ACEBB200A289D6 /* 5000_students.json */,
 				FB4743FF19A54E1800DF3378 /* 10000_students.json */,
 				FB4743E519A54DB500DF3378 /* RestkitRelationshipMappingBenchmarkTests.m */,
 				FB4743E019A54DB500DF3378 /* Supporting Files */,
@@ -280,13 +282,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB47440219A54E1800DF3378 /* 1000_students.json in Resources */,
-				FB47440019A54E1800DF3378 /* 500_students.json in Resources */,
 				FB4743CE19A54DB500DF3378 /* Main_iPad.storyboard in Resources */,
 				FB4743D319A54DB500DF3378 /* Images.xcassets in Resources */,
 				FB4743CB19A54DB500DF3378 /* Main_iPhone.storyboard in Resources */,
 				FB47440619A54E1800DF3378 /* 10000_students.json in Resources */,
-				FB47440419A54E1800DF3378 /* 5000_students.json in Resources */,
 				FB4743C219A54DB400DF3378 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,11 +294,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB47440519A54E1800DF3378 /* 5000_students.json in Resources */,
+				FB396FC619ACEBB200A289D6 /* 1000_students.json in Resources */,
+				FB396FC719ACEBB200A289D6 /* 5000_students.json in Resources */,
+				FB396FC519ACEBB200A289D6 /* 500_students.json in Resources */,
 				FB47440719A54E1800DF3378 /* 10000_students.json in Resources */,
-				FB47440319A54E1800DF3378 /* 1000_students.json in Resources */,
 				FB4743E419A54DB500DF3378 /* InfoPlist.strings in Resources */,
-				FB47440119A54E1800DF3378 /* 500_students.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB4743F619A54DFC00DF3378 /* NetworkManager.m in Sources */,
+				FBAF246719A65C7F00183686 /* NSDictionary+MapArrayOfDictionariesIntoArrayOfObjects.m in Sources */,
 				FB4743D119A54DB500DF3378 /* ViewController.m in Sources */,
 				FB4743C819A54DB400DF3378 /* AppDelegate.m in Sources */,
 				FB4743FA19A54DFC00DF3378 /* RMBStudent.m in Sources */,

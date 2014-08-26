@@ -43,65 +43,25 @@
 
 - (void)getStudentsMappingWithoutUsingRelationshipMappingWithCallback: (SEL)callback sender: (id)sender
 {
-    RKObjectRequestOperation *operation = [[RKObjectManager sharedManager] appropriateObjectRequestOperationWithObject: nil
-                                                                                                                method: RKRequestMethodGET
-                                                                                                                  path: @"students/without_relationship_mapping"
-                                                                                                            parameters: nil];
-    
-    //a dictionary where each key is a student id that maps to an array of RMBClass objects
-    NSMutableDictionary *studentIdToClassesDictionary = [@{} mutableCopy];
-    
-    [operation setWillMapDeserializedResponseBlock: ^id(id deserializedResponseBody) {
-        
-        NSDictionary *dictionary = (NSDictionary *)deserializedResponseBody;
-        
-        //get an array of student dictionaries from the response
-        NSArray *students = dictionary[@"students"];
-        for (NSDictionary *studentDict in students)
-        {
-            //get the student id and the array of class dictionaries from each student dictionary
-            NSNumber *studentId = studentDict[@"id"];
-            NSArray *classes = studentDict[@"classes"];
-
-            for (NSDictionary *classDict in classes)
-            {
-                //instantiate an RMBClass object for each class dictionary
-                RMBClass *class = [[RMBClass alloc] init];
-                class.classId = classDict[@"id"];
-                class.name = classDict[@"name"];
-                class.grade = classDict[@"grade"];
-                
-                //add each new RMBClass to the array of class objects for the current student id
-                NSMutableArray *classesForStudent = [studentIdToClassesDictionary[studentId] mutableCopy];
-                if (!classesForStudent)
-                {
-                    classesForStudent = [NSMutableArray new];
-                }
-                [classesForStudent addObject: class];
-                studentIdToClassesDictionary[studentId] = classesForStudent;
-            }
-        }
-        return deserializedResponseBody;
-    }];
-    
-    [operation setCompletionBlockWithSuccess: ^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
-
-        //assign the corresponding array of classes created earlier to each student
-        for (RMBStudent *student in mappingResult.array)
-        {
-            student.classes = studentIdToClassesDictionary[student.studentId];
-        }
-
-        //the callback takes two parameters, a success object and an error, one of which will be nil
-        [sender performSelector: callback withObject: mappingResult.array withObject: nil];
-        
-    } failure: ^(RKObjectRequestOperation *operation, NSError *error) {
-        
-        //the callback takes two parameters, a success object and an error, one of which will be nil
-        [sender performSelector: callback withObject: nil withObject: error];
-    }];
-    
-    [[RKObjectManager sharedManager] enqueueObjectRequestOperation: operation];
+    NSURLRequest *request = [NSURLRequest requestWithURL: [NSURL URLWithString: @"http://www.example.com/students/without_relationship_mapping"]];
+    AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest: request
+                                                                                        success: ^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
+                                                                                            
+                                                                                            NSDictionary *responseDictionary = (NSDictionary *)JSON;
+                                                                                            NSArray *attendeeDictionaries = responseDictionary[@"students"];
+                                                                                            
+                                                                                            NSMutableArray *attendees = [@[] mutableCopy];
+                                                                                            for (NSDictionary *attendeeDictionary in attendeeDictionaries)
+                                                                                            {
+                                                                                                [attendees addObject: [RMBStudent studentFromDictionary: attendeeDictionary]];
+                                                                                            }
+                                                                                            
+                                                                                            [sender performSelector: callback withObject: attendees withObject: nil];
+                                                                                        }
+                                                                                        failure: ^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
+                                                                                            [sender performSelector: callback withObject: nil withObject: error];
+                                                                                        }];
+    [operation start];
 }
 
 + (void)setupRestKit
@@ -115,8 +75,7 @@
     [RKObjectManager setSharedManager: objectManager];
     
     //setup response descriptor
-    [[RKObjectManager sharedManager] addResponseDescriptor: [RMBStudent responseDescriptorWithRelationshipMapping]];
-    [[RKObjectManager sharedManager] addResponseDescriptor: [RMBStudent responseDescriptorWithoutRelationshipMapping]];
+    [[RKObjectManager sharedManager] addResponseDescriptor: [RMBStudent responseDescriptor]];
 }
 
 @end

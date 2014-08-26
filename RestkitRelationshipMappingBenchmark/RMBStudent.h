@@ -17,7 +17,7 @@
 @property (strong, nonatomic) NSString *lastName;
 @property (strong, nonatomic) NSArray *classes;
 
-+ (RKResponseDescriptor *)responseDescriptorWithRelationshipMapping;
-+ (RKResponseDescriptor *)responseDescriptorWithoutRelationshipMapping;
++ (RKResponseDescriptor *)responseDescriptor;
++ (RMBStudent *)studentFromDictionary: (NSDictionary *)studentDictionary;
 
 @end

@@ -65,7 +65,7 @@ static NSMutableArray *testResults;
 
 #pragma mark - Non-Relationship Mapping Test Cases
 //These tests parse and map json responses with 500, 1000, and 5000 students, each with 10-15 classes, without using RestKit relationship mapping
-//Relationships are instead established by manually parsing the response dictionary using setWillMapDeserializedResponseBlock, and assigning an array of RMBClasses to each RMBStudent
+//Relationships are instead established by manually parsing the AFNetworking response dictionary
 - (void)test500StudentsWithoutRelationshipMapping
 {
     [self runTestForNumberOfStudents: 500 usingRelationshipMapping: NO];

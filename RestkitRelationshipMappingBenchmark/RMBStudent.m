@@ -6,13 +6,14 @@
 //  Copyright (c) 2014 RECSOLU. All rights reserved.
 //
 
+#import "NSDictionary+MapArrayOfDictionariesIntoArrayOfObjects.h"
 #import <RestKit/RestKit.h>
 #import "RMBClass.h"
 #import "RMBStudent.h"
 
 @implementation RMBStudent
 
-+ (RKObjectMapping *)objectMappingWithRelationshipMapping
++ (RKObjectMapping *)objectMapping
 {
     RKObjectMapping *studentMapping = [RKObjectMapping mappingForClass: [RMBStudent class]];
     [studentMapping addAttributeMappingsFromDictionary: @{@"id" : @"studentId",
@@ -22,31 +23,26 @@
     return studentMapping;
 }
 
-+ (RKObjectMapping *)objectMappingWithoutRelationshipMapping
++ (RKResponseDescriptor *)responseDescriptor
 {
-    RKObjectMapping *studentMapping = [RKObjectMapping mappingForClass: [RMBStudent class]];
-    [studentMapping addAttributeMappingsFromDictionary: @{@"id" : @"studentId",
-                                                          @"first_name" : @"firstName",
-                                                          @"last_name" : @"lastName"}];
-    return studentMapping;
-}
-
-+ (RKResponseDescriptor *)responseDescriptorWithRelationshipMapping
-{
-    return [RKResponseDescriptor responseDescriptorWithMapping: [RMBStudent objectMappingWithRelationshipMapping]
+    return [RKResponseDescriptor responseDescriptorWithMapping: [RMBStudent objectMapping]
                                                         method: RKRequestMethodGET
                                                    pathPattern: @"students/with_relationship_mapping"
                                                        keyPath: @"students"
                                                    statusCodes: RKStatusCodeIndexSetForClass(RKStatusCodeClassSuccessful)];
 }
 
-+ (RKResponseDescriptor *)responseDescriptorWithoutRelationshipMapping
++ (RMBStudent *)studentFromDictionary: (NSDictionary *)studentDictionary
 {
-    return [RKResponseDescriptor responseDescriptorWithMapping: [RMBStudent objectMappingWithoutRelationshipMapping]
-                                                        method: RKRequestMethodGET
-                                                   pathPattern: @"students/without_relationship_mapping"
-                                                       keyPath: @"students"
-                                                   statusCodes: RKStatusCodeIndexSetForClass(RKStatusCodeClassSuccessful)];
+    RMBStudent *student = [[RMBStudent alloc] init];
+    student.studentId = studentDictionary[@"id"];
+    student.firstName = studentDictionary[@"first_name"];
+    student.lastName = studentDictionary[@"last_name"];
+    student.classes = [studentDictionary mapArrayOfDictionariesForKey: @"classes" intoArrayOfObjectsUsingMappingBlock: ^id(NSDictionary *objectDictionary) {
+        return [RMBClass classFromDictionary: objectDictionary];
+    }];
+    
+    return student;
 }
 
 @end

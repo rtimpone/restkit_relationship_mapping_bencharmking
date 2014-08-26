@@ -17,5 +17,6 @@
 @property (strong, nonatomic) NSString *grade;
 
 + (RKObjectMapping *)objectMapping;
++ (RMBClass *)classFromDictionary: (NSDictionary *)classDictionary;
 
 @end

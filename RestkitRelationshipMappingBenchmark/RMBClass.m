@@ -20,4 +20,13 @@
     return classMapping;
 }
 
++ (RMBClass *)classFromDictionary: (NSDictionary *)classDictionary
+{
+    RMBClass *class = [[RMBClass alloc] init];
+    class.classId = classDictionary[@"id"];
+    class.name = classDictionary[@"name"];
+    class.grade = classDictionary[@"grade"];
+    return class;
+}
+
 @end
