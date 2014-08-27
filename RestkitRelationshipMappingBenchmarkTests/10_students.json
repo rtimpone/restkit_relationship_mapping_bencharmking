@@ -1,0 +1,687 @@
+{ "students": [
+    {
+        "id": 0,
+        "first_name": "VCSPZY",
+        "last_name": "RQOHRINGO",
+        "classes": [
+            {
+                "id": 23,
+                "name": "XWTPRBQBG",
+                "grade": "B"
+            },
+            {
+                "id": 11,
+                "name": "EWXYTMAOFB",
+                "grade": "A"
+            },
+            {
+                "id": 85,
+                "name": "WOTOVNSTMKYZWE",
+                "grade": "C"
+            },
+            {
+                "id": 66,
+                "name": "RCYCSTNCZXDGJM",
+                "grade": "D"
+            },
+            {
+                "id": 18,
+                "name": "IWVXMPEKSRUUBEUU",
+                "grade": "C"
+            },
+            {
+                "id": 24,
+                "name": "GMAYZFWAMHITO",
+                "grade": "A"
+            },
+            {
+                "id": 49,
+                "name": "MVBQGHRULVNRKDAD",
+                "grade": "A"
+            },
+            {
+                "id": 46,
+                "name": "RDTUIKLHIFKNA",
+                "grade": "A"
+            },
+            {
+                "id": 4,
+                "name": "EEMYKKYAEJZBNPKJ",
+                "grade": "B"
+            },
+            {
+                "id": 98,
+                "name": "NMKUKAVHPGWEV",
+                "grade": "A"
+            },
+            {
+                "id": 45,
+                "name": "BKSOIOVUSJIY",
+                "grade": "C"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "first_name": "FFJIP",
+        "last_name": "UHMGIJEF",
+        "classes": [
+            {
+                "id": 26,
+                "name": "WXBRKRINH",
+                "grade": "D"
+            },
+            {
+                "id": 94,
+                "name": "GHLZNAIAIUCPNAHT",
+                "grade": "D"
+            },
+            {
+                "id": 41,
+                "name": "DPTWMLLPFFSFIB",
+                "grade": "B"
+            },
+            {
+                "id": 11,
+                "name": "MJJVVXKSBTLZV",
+                "grade": "C"
+            },
+            {
+                "id": 49,
+                "name": "YCLPVCJVIOQAYZ",
+                "grade": "B"
+            },
+            {
+                "id": 75,
+                "name": "HGMWCAAWEJ",
+                "grade": "C"
+            },
+            {
+                "id": 36,
+                "name": "VEOJFXRFDJEMYOR",
+                "grade": "A"
+            },
+            {
+                "id": 81,
+                "name": "QFIOVOKBOUY",
+                "grade": "A"
+            },
+            {
+                "id": 7,
+                "name": "ALNDORHS",
+                "grade": "D"
+            },
+            {
+                "id": 21,
+                "name": "JQKLHST",
+                "grade": "A"
+            },
+            {
+                "id": 45,
+                "name": "FXAIFGMHSALU",
+                "grade": "D"
+            },
+            {
+                "id": 97,
+                "name": "CSPKKLPFMSVXTG",
+                "grade": "D"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "first_name": "KHSELDSR",
+        "last_name": "RMEHJW",
+        "classes": [
+            {
+                "id": 9,
+                "name": "HDYZDFZFU",
+                "grade": "C"
+            },
+            {
+                "id": 93,
+                "name": "TVIDXWGZMJJCBY",
+                "grade": "A"
+            },
+            {
+                "id": 7,
+                "name": "DVWQACWLDPWQS",
+                "grade": "B"
+            },
+            {
+                "id": 61,
+                "name": "EILAELG",
+                "grade": "B"
+            },
+            {
+                "id": 41,
+                "name": "WYPMNXUNHMTBJ",
+                "grade": "A"
+            },
+            {
+                "id": 69,
+                "name": "UVUFOKZQSOLL",
+                "grade": "D"
+            },
+            {
+                "id": 24,
+                "name": "LBAMGIOGMU",
+                "grade": "A"
+            },
+            {
+                "id": 29,
+                "name": "HGOZRCKMJSQ",
+                "grade": "D"
+            },
+            {
+                "id": 65,
+                "name": "QTOOEZTKKTHF",
+                "grade": "D"
+            },
+            {
+                "id": 48,
+                "name": "JWCXJKKFQARCT",
+                "grade": "C"
+            },
+            {
+                "id": 69,
+                "name": "GYCNPXVXPCOFWMEO",
+                "grade": "B"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "first_name": "WGDZLO",
+        "last_name": "FLSDGF",
+        "classes": [
+            {
+                "id": 23,
+                "name": "ARUSGZAOW",
+                "grade": "B"
+            },
+            {
+                "id": 13,
+                "name": "KHBHCBHREEFTJ",
+                "grade": "A"
+            },
+            {
+                "id": 23,
+                "name": "JRWPOIYDXZGF",
+                "grade": "A"
+            },
+            {
+                "id": 70,
+                "name": "GZQGYOQ",
+                "grade": "B"
+            },
+            {
+                "id": 57,
+                "name": "IGLSNFKFNKRGBM",
+                "grade": "C"
+            },
+            {
+                "id": 70,
+                "name": "XBNOJOWNG",
+                "grade": "C"
+            },
+            {
+                "id": 51,
+                "name": "BBOQOGQDJCF",
+                "grade": "D"
+            },
+            {
+                "id": 9,
+                "name": "KFSOPWUBJLI",
+                "grade": "A"
+            },
+            {
+                "id": 89,
+                "name": "CTONJMYYOKM",
+                "grade": "B"
+            },
+            {
+                "id": 18,
+                "name": "JANCSOFPTE",
+                "grade": "D"
+            },
+            {
+                "id": 75,
+                "name": "AMYMXVPXZ",
+                "grade": "B"
+            },
+            {
+                "id": 49,
+                "name": "LCUBASXYEK",
+                "grade": "B"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "first_name": "WEHHNTP",
+        "last_name": "KVWDA",
+        "classes": [
+            {
+                "id": 12,
+                "name": "KNXMZIEPAOLBS",
+                "grade": "C"
+            },
+            {
+                "id": 80,
+                "name": "REAQRQPTPVEQKCQ",
+                "grade": "D"
+            },
+            {
+                "id": 38,
+                "name": "PJBUZRJBQTYMWHKU",
+                "grade": "B"
+            },
+            {
+                "id": 95,
+                "name": "KKNSDZGO",
+                "grade": "C"
+            },
+            {
+                "id": 39,
+                "name": "NDNQVGBUBV",
+                "grade": "A"
+            },
+            {
+                "id": 17,
+                "name": "IQRJEIKYCKMAU",
+                "grade": "A"
+            },
+            {
+                "id": 16,
+                "name": "FOIRXLEDZPFCMVB",
+                "grade": "B"
+            },
+            {
+                "id": 99,
+                "name": "HQMSAMEXB",
+                "grade": "C"
+            },
+            {
+                "id": 39,
+                "name": "FGCUHJRLYSL",
+                "grade": "C"
+            },
+            {
+                "id": 21,
+                "name": "DLGNIAQARWNSILGX",
+                "grade": "C"
+            },
+            {
+                "id": 28,
+                "name": "PRYAIZMVHSMIYKM",
+                "grade": "A"
+            },
+            {
+                "id": 98,
+                "name": "VGSBLMYCHL",
+                "grade": "A"
+            },
+            {
+                "id": 92,
+                "name": "KJNRQJT",
+                "grade": "B"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "first_name": "DWZWJRIVL",
+        "last_name": "HWWOO",
+        "classes": [
+            {
+                "id": 70,
+                "name": "TRMCCVMQ",
+                "grade": "D"
+            },
+            {
+                "id": 15,
+                "name": "IMVBGGL",
+                "grade": "C"
+            },
+            {
+                "id": 94,
+                "name": "TFFBVJWVNKMYL",
+                "grade": "D"
+            },
+            {
+                "id": 5,
+                "name": "PMEHBZJGXCYKC",
+                "grade": "C"
+            },
+            {
+                "id": 95,
+                "name": "HBKJEKE",
+                "grade": "B"
+            },
+            {
+                "id": 17,
+                "name": "SIGYEYBLHGEFYVWI",
+                "grade": "C"
+            },
+            {
+                "id": 49,
+                "name": "PSIJMDVNQH",
+                "grade": "A"
+            },
+            {
+                "id": 57,
+                "name": "SJCMHFK",
+                "grade": "B"
+            },
+            {
+                "id": 74,
+                "name": "PBYXUYWOP",
+                "grade": "C"
+            },
+            {
+                "id": 34,
+                "name": "IREXKMBXTEWMPARR",
+                "grade": "C"
+            },
+            {
+                "id": 44,
+                "name": "MJRLMXKL",
+                "grade": "A"
+            },
+            {
+                "id": 51,
+                "name": "QHOTIWMYOI",
+                "grade": "B"
+            },
+            {
+                "id": 84,
+                "name": "TOKVIEEHBUSJCCCY",
+                "grade": "A"
+            },
+            {
+                "id": 12,
+                "name": "IUCFLHG",
+                "grade": "D"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "first_name": "BEJOI",
+        "last_name": "VNGTE",
+        "classes": [
+            {
+                "id": 23,
+                "name": "ZHNZMTLD",
+                "grade": "A"
+            },
+            {
+                "id": 63,
+                "name": "KDWANXLQFSPHSR",
+                "grade": "A"
+            },
+            {
+                "id": 69,
+                "name": "GFRLRGYZFQYXP",
+                "grade": "B"
+            },
+            {
+                "id": 84,
+                "name": "JMNPEBDF",
+                "grade": "C"
+            },
+            {
+                "id": 56,
+                "name": "HUEUZNWRCJP",
+                "grade": "C"
+            },
+            {
+                "id": 37,
+                "name": "ULILJVWSYA",
+                "grade": "B"
+            },
+            {
+                "id": 85,
+                "name": "MXTVUQJ",
+                "grade": "C"
+            },
+            {
+                "id": 24,
+                "name": "MNUYJOCEUSPMHA",
+                "grade": "B"
+            },
+            {
+                "id": 20,
+                "name": "UZUEVRXNWJB",
+                "grade": "A"
+            },
+            {
+                "id": 54,
+                "name": "KPDPBBRURITXVN",
+                "grade": "C"
+            },
+            {
+                "id": 31,
+                "name": "UDPEQZSYJHF",
+                "grade": "A"
+            },
+            {
+                "id": 16,
+                "name": "UAZMMHTQANLC",
+                "grade": "D"
+            },
+            {
+                "id": 2,
+                "name": "MCJEDNMIIEDWHVSW",
+                "grade": "C"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "first_name": "QWIDRET",
+        "last_name": "ISYACBX",
+        "classes": [
+            {
+                "id": 6,
+                "name": "WPCYGUQRTCYTAEGV",
+                "grade": "A"
+            },
+            {
+                "id": 51,
+                "name": "DPDSSAEE",
+                "grade": "B"
+            },
+            {
+                "id": 31,
+                "name": "NIYALWDUA",
+                "grade": "D"
+            },
+            {
+                "id": 22,
+                "name": "URMAGVYUSGJIJR",
+                "grade": "A"
+            },
+            {
+                "id": 23,
+                "name": "KCEKVDBANX",
+                "grade": "C"
+            },
+            {
+                "id": 79,
+                "name": "EXWTCIOPGCYK",
+                "grade": "A"
+            },
+            {
+                "id": 39,
+                "name": "BAQYGFWSGYAULQ",
+                "grade": "A"
+            },
+            {
+                "id": 79,
+                "name": "IRQAVOQUCKTQFBG",
+                "grade": "B"
+            },
+            {
+                "id": 22,
+                "name": "CMSERPD",
+                "grade": "A"
+            },
+            {
+                "id": 54,
+                "name": "TACVXAJMMCYCR",
+                "grade": "B"
+            },
+            {
+                "id": 82,
+                "name": "DJCCKRVIVSTLLAUQ",
+                "grade": "A"
+            },
+            {
+                "id": 47,
+                "name": "DKDSKIT",
+                "grade": "C"
+            },
+            {
+                "id": 84,
+                "name": "CAJCJVMMH",
+                "grade": "B"
+            },
+            {
+                "id": 77,
+                "name": "FBEFDZF",
+                "grade": "B"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "first_name": "ZUFYAAFB",
+        "last_name": "APEHPDWA",
+        "classes": [
+            {
+                "id": 25,
+                "name": "VTBDDGXZFRSKSVU",
+                "grade": "A"
+            },
+            {
+                "id": 14,
+                "name": "VCFHDFHO",
+                "grade": "B"
+            },
+            {
+                "id": 35,
+                "name": "YULRXSZHR",
+                "grade": "A"
+            },
+            {
+                "id": 40,
+                "name": "HTRZQAZCVNBDEZ",
+                "grade": "A"
+            },
+            {
+                "id": 62,
+                "name": "NIULEHHPMUKIJXNO",
+                "grade": "A"
+            },
+            {
+                "id": 54,
+                "name": "LMMRHCWTCZ",
+                "grade": "A"
+            },
+            {
+                "id": 94,
+                "name": "SEQJLHUEUSLAFL",
+                "grade": "D"
+            },
+            {
+                "id": 82,
+                "name": "HIOERNWKBGDRSQ",
+                "grade": "D"
+            },
+            {
+                "id": 19,
+                "name": "TWHEARJORZHPS",
+                "grade": "D"
+            },
+            {
+                "id": 57,
+                "name": "XPANDURELMBLPSVU",
+                "grade": "D"
+            },
+            {
+                "id": 80,
+                "name": "KVLCPMMYNY",
+                "grade": "C"
+            },
+            {
+                "id": 83,
+                "name": "WJNOFTCKDUJDP",
+                "grade": "A"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "first_name": "WPNIEP",
+        "last_name": "NXOJXTN",
+        "classes": [
+            {
+                "id": 12,
+                "name": "WMUWMEHSYASHO",
+                "grade": "B"
+            },
+            {
+                "id": 57,
+                "name": "ZDZDTZUC",
+                "grade": "C"
+            },
+            {
+                "id": 44,
+                "name": "UTDZJFWIWEHEELS",
+                "grade": "A"
+            },
+            {
+                "id": 31,
+                "name": "GDVQPYOFDIX",
+                "grade": "A"
+            },
+            {
+                "id": 46,
+                "name": "SVAYBPDVPBTYBRKP",
+                "grade": "C"
+            },
+            {
+                "id": 53,
+                "name": "KESEIDEQHBRJ",
+                "grade": "D"
+            },
+            {
+                "id": 22,
+                "name": "CHFTJBVRD",
+                "grade": "B"
+            },
+            {
+                "id": 82,
+                "name": "DTZFSQNZTAISRH",
+                "grade": "B"
+            },
+            {
+                "id": 48,
+                "name": "LGAAWQWPHLPHVQIQ",
+                "grade": "C"
+            },
+            {
+                "id": 77,
+                "name": "EVLHKWVI",
+                "grade": "C"
+            },
+            {
+                "id": 73,
+                "name": "JDLKOPZV",
+                "grade": "B"
+            }
+        ]
+    }
+]}

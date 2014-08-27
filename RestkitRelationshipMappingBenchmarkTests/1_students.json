@@ -1,0 +1,59 @@
+{ "students": [
+    {
+        "id": 0,
+        "first_name": "XNBRJRXX",
+        "last_name": "FQUVMUCXY",
+        "classes": [
+            {
+                "id": 11,
+                "name": "QKJCFJATSIMCBI",
+                "grade": "B"
+            },
+            {
+                "id": 65,
+                "name": "NTDKUKULHNVXI",
+                "grade": "A"
+            },
+            {
+                "id": 4,
+                "name": "FFVZNCHJKTRAY",
+                "grade": "D"
+            },
+            {
+                "id": 97,
+                "name": "CMVWDDSUA",
+                "grade": "A"
+            },
+            {
+                "id": 83,
+                "name": "ZZZKYLXLGCS",
+                "grade": "D"
+            },
+            {
+                "id": 28,
+                "name": "MQYSKGAN",
+                "grade": "A"
+            },
+            {
+                "id": 2,
+                "name": "BRLRFYMZAZBNAX",
+                "grade": "B"
+            },
+            {
+                "id": 69,
+                "name": "NVARUEIMK",
+                "grade": "A"
+            },
+            {
+                "id": 18,
+                "name": "MFJZNWVDNOUKTX",
+                "grade": "B"
+            },
+            {
+                "id": 69,
+                "name": "AIIVNWWZXFCET",
+                "grade": "A"
+            }
+        ]
+    }
+]}

@@ -46,8 +46,28 @@ static NSMutableArray *testResults;
 }
 
 #pragma mark - Relationship Mapping Test Cases
-//These tests parse and map json responses with 500, 1000, and 5000 students, each with 10-15 classes, using RestKit relationship mapping
+//These tests parse and map json responses with differing quantities of students, each with 10-15 classes, using RestKit relationship mapping
 //Relationships are established using addRelationshipMappingWithSourceKeyPath in the RMBStudent class's object mapping
+- (void)test1StudentsWithRelationshipMapping
+{
+    [self runTestForNumberOfStudents: 1 usingRelationshipMapping: YES];
+}
+
+- (void)test10StudentsWithRelationshipMapping
+{
+    [self runTestForNumberOfStudents: 10 usingRelationshipMapping: YES];
+}
+
+- (void)test50StudentsWithRelationshipMapping
+{
+    [self runTestForNumberOfStudents: 50 usingRelationshipMapping: YES];
+}
+
+- (void)test100StudentsWithRelationshipMapping
+{
+    [self runTestForNumberOfStudents: 100 usingRelationshipMapping: YES];
+}
+
 - (void)test500StudentsWithRelationshipMapping
 {
     [self runTestForNumberOfStudents: 500 usingRelationshipMapping: YES];
@@ -64,8 +84,28 @@ static NSMutableArray *testResults;
 }
 
 #pragma mark - Non-Relationship Mapping Test Cases
-//These tests parse and map json responses with 500, 1000, and 5000 students, each with 10-15 classes, without using RestKit relationship mapping
+//These tests parse and map json responses with different quantities of students, each with 10-15 classes, without using RestKit relationship mapping
 //Relationships are instead established by manually parsing the AFNetworking response dictionary
+- (void)test1StudentsWithoutRelationshipMapping
+{
+    [self runTestForNumberOfStudents: 1 usingRelationshipMapping: NO];
+}
+
+- (void)test10StudentsWithoutRelationshipMapping
+{
+    [self runTestForNumberOfStudents: 10 usingRelationshipMapping: NO];
+}
+
+- (void)test50StudentsWithoutRelationshipMapping
+{
+    [self runTestForNumberOfStudents: 50 usingRelationshipMapping: NO];
+}
+
+- (void)test100StudentsWithoutRelationshipMapping
+{
+    [self runTestForNumberOfStudents: 100 usingRelationshipMapping: NO];
+}
+
 - (void)test500StudentsWithoutRelationshipMapping
 {
     [self runTestForNumberOfStudents: 500 usingRelationshipMapping: NO];

@@ -11,6 +11,10 @@
 		FB396FC519ACEBB200A289D6 /* 500_students.json in Resources */ = {isa = PBXBuildFile; fileRef = FB396FC219ACEBB200A289D6 /* 500_students.json */; };
 		FB396FC619ACEBB200A289D6 /* 1000_students.json in Resources */ = {isa = PBXBuildFile; fileRef = FB396FC319ACEBB200A289D6 /* 1000_students.json */; };
 		FB396FC719ACEBB200A289D6 /* 5000_students.json in Resources */ = {isa = PBXBuildFile; fileRef = FB396FC419ACEBB200A289D6 /* 5000_students.json */; };
+		FB396FCC19AD0DB200A289D6 /* 1_students.json in Resources */ = {isa = PBXBuildFile; fileRef = FB396FC819AD0DB200A289D6 /* 1_students.json */; };
+		FB396FCD19AD0DB200A289D6 /* 10_students.json in Resources */ = {isa = PBXBuildFile; fileRef = FB396FC919AD0DB200A289D6 /* 10_students.json */; };
+		FB396FCE19AD0DB200A289D6 /* 50_students.json in Resources */ = {isa = PBXBuildFile; fileRef = FB396FCA19AD0DB200A289D6 /* 50_students.json */; };
+		FB396FCF19AD0DB200A289D6 /* 100_students.json in Resources */ = {isa = PBXBuildFile; fileRef = FB396FCB19AD0DB200A289D6 /* 100_students.json */; };
 		FB4743B819A54DB400DF3378 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4743B719A54DB400DF3378 /* Foundation.framework */; };
 		FB4743BA19A54DB400DF3378 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4743B919A54DB400DF3378 /* CoreGraphics.framework */; };
 		FB4743BC19A54DB400DF3378 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4743BB19A54DB400DF3378 /* UIKit.framework */; };
@@ -53,6 +57,10 @@
 		FB396FC219ACEBB200A289D6 /* 500_students.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 500_students.json; sourceTree = "<group>"; };
 		FB396FC319ACEBB200A289D6 /* 1000_students.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1000_students.json; sourceTree = "<group>"; };
 		FB396FC419ACEBB200A289D6 /* 5000_students.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5000_students.json; sourceTree = "<group>"; };
+		FB396FC819AD0DB200A289D6 /* 1_students.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1_students.json; sourceTree = "<group>"; };
+		FB396FC919AD0DB200A289D6 /* 10_students.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 10_students.json; sourceTree = "<group>"; };
+		FB396FCA19AD0DB200A289D6 /* 50_students.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 50_students.json; sourceTree = "<group>"; };
+		FB396FCB19AD0DB200A289D6 /* 100_students.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 100_students.json; sourceTree = "<group>"; };
 		FB4743B419A54DB400DF3378 /* RestkitRelationshipMappingBenchmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestkitRelationshipMappingBenchmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4743B719A54DB400DF3378 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FB4743B919A54DB400DF3378 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -172,6 +180,10 @@
 		FB4743DF19A54DB500DF3378 /* RestkitRelationshipMappingBenchmarkTests */ = {
 			isa = PBXGroup;
 			children = (
+				FB396FC819AD0DB200A289D6 /* 1_students.json */,
+				FB396FC919AD0DB200A289D6 /* 10_students.json */,
+				FB396FCA19AD0DB200A289D6 /* 50_students.json */,
+				FB396FCB19AD0DB200A289D6 /* 100_students.json */,
 				FB396FC219ACEBB200A289D6 /* 500_students.json */,
 				FB396FC319ACEBB200A289D6 /* 1000_students.json */,
 				FB396FC419ACEBB200A289D6 /* 5000_students.json */,
@@ -297,7 +309,11 @@
 				FB396FC619ACEBB200A289D6 /* 1000_students.json in Resources */,
 				FB396FC719ACEBB200A289D6 /* 5000_students.json in Resources */,
 				FB396FC519ACEBB200A289D6 /* 500_students.json in Resources */,
+				FB396FCD19AD0DB200A289D6 /* 10_students.json in Resources */,
+				FB396FCC19AD0DB200A289D6 /* 1_students.json in Resources */,
+				FB396FCF19AD0DB200A289D6 /* 100_students.json in Resources */,
 				FB47440719A54E1800DF3378 /* 10000_students.json in Resources */,
+				FB396FCE19AD0DB200A289D6 /* 50_students.json in Resources */,
 				FB4743E419A54DB500DF3378 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
